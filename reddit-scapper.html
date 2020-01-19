@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>undefined</title>
+  <meta name="generator" content="Google Web Designer 7.0.1.1101">
+  <style type="text/css" id="gwd-text-style">
+    p {
+      margin: 0px;
+    }
+    h1 {
+      margin: 0px;
+    }
+    h2 {
+      margin: 0px;
+    }
+    h3 {
+      margin: 0px;
+    }
+  </style>
+  <style type="text/css">
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+    }
+    body {
+      background-color: transparent;
+      transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      transform-style: preserve-3d;
+    }
+    [data-gwd-group="Option"] .gwd-grp-1f4s.gwd-input-1opl {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      left: -4px;
+      top: -2px;
+    }
+    [data-gwd-group="Option"] .gwd-grp-1f4s.gwd-label-1hav {
+      position: absolute;
+      width: 100px;
+      height: 20px;
+      left: 20px;
+      top: 0px;
+    }
+    [data-gwd-group="Option"] {
+      width: 120px;
+      height: 20px;
+    }
+    .gwd-div-wuqx {
+      position: absolute;
+      left: 369px;
+      top: 283px;
+    }
+    .gwd-div-9xf9 {
+      top: 306px;
+      left: 369px;
+    }
+    .gwd-div-1c4x {
+      left: 370px;
+      top: 326px;
+    }
+    .gwd-div-1l22 {
+      left: 371px;
+      top: 348px;
+    }
+    .gwd-div-1v0q {
+      left: 373px;
+      top: 368px;
+    }
+    .gwd-fieldset-1ltg {
+      left: 2px;
+      top: 0px;
+    }
+    .gwd-input-mh42 {
+      left: 0px;
+      top: 96px;
+    }
+    .gwd-input-7ho4 {
+      position: absolute;
+      width: 100px;
+      height: 20px;
+      left: 99.2px;
+      top: 95.4px;
+    }
+  </style>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="functions.js"></script>
+  <script type="text/javascript" src="groups_runtime.min.1.0.js" gwd-groups-version="1.0"></script>
+
+ 
+</head>
+
+<body class="htmlNoPages">
+  <template id="gwd-group-definitions">
+    <div data-gwd-group-def="Option" data-gwd-group-class="gwd-grp-1f4s" style="display: none;">
+      <input type="checkbox" class="gwd-input-1opl gwd-grp-1f4s" data-gwd-grp-id="checkbox_1">
+      <label class="gwd-label-1hav gwd-grp-1f4s" data-gwd-grp-id="label_1">Etykieta</label>
+    </div>
+  </template>
+  
+  <input type="submit" value="Add new" onclick="return addNewElementToForm();" class="gwd-input-mh42">
+  <input type="text" id="text_1" class="gwd-input-mh42">
+  
+  <fieldset id="form" class="gwd-fieldset-1ltg">
+    <legend>What words to mine?</legend>
+    <input type="checkbox" name="wordToSearch" id="option_1" value="in">in<br>
+    
+    <input type="checkbox" name="wordToSearch" id="option_2" value="and">and<br>
+    
+    <input type="checkbox" name="wordToSearch" id="option_3" value="for">for<br>
+    
+  </fieldset>
+  
+  <input type="submit" value="Send api request" onclick="return apiReq();" class="gwd-input-mh42">
+  <input type="text" id="text_from_api" class="gwd-input-mh42">
+
+  <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+
+</html>
